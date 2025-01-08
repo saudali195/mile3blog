@@ -35,7 +35,7 @@ export default function Comments({ postId }: CommentsProps) {
       } else {
         throw new Error('Failed to fetch comments.');
       }
-    } catch (err) {
+    } catch {
       setError('Could not load comments. Please try again later.');
     } finally {
       setLoading(false);
@@ -69,7 +69,7 @@ export default function Comments({ postId }: CommentsProps) {
       } else {
         throw new Error('Failed to post the comment.');
       }
-    } catch (err) {
+    } catch {
       setError('Unable to post comment. Please try again.');
     } finally {
       setLoading(false);
