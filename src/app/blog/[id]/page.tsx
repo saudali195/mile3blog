@@ -11,7 +11,7 @@ export default function BlogPost({ params }: { params: { id: string } }) {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 bg-[#FAF3E3]">
       <div className="pt-20 pb-12"> {/* Add padding top to account for the fixed header */}
         <div className="relative h-[40vh] md:h-[50vh] lg:h-[60vh]">
           <Image
