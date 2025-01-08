@@ -4,7 +4,7 @@ import { posts } from '../lib/posts'
 
 export default function BlogPage() {
   return (
-          <div className="min-h-screen bg-gradient-to-b from-[#F7F3EF] to-[#FFF8F2]">
+          <div className="min-h-screen bg-[#FAF3E3]">
             <div className="container mx-auto px-12 py-36">
               <h1 className="text-5xl font-extrabold text-[#6B4226] mb-12 text-center tracking-wide">
                 Explore Our Latest Food Stories 🍴
